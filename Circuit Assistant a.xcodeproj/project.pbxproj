@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76A453A82B85869700581694 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A453A72B85869700581694 /* SecondView.swift */; };
+		76A453B02B85B65E00581694 /* FabricationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A453AF2B85B65E00581694 /* FabricationModel.swift */; };
+		76A453B22B85B7E100581694 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A453B12B85B7E100581694 /* Intro.swift */; };
+		76A453B42B85B85900581694 /* FabDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A453B32B85B85900581694 /* FabDetailView.swift */; };
+		76FDDCB42B84E53A00E48A74 /* Circuit_Assistant_aApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FDDCB32B84E53A00E48A74 /* Circuit_Assistant_aApp.swift */; };
+		76FDDCB82B84E53C00E48A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FDDCB72B84E53C00E48A74 /* Assets.xcassets */; };
+		76FDDCBB2B84E53C00E48A74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FDDCBA2B84E53C00E48A74 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76FDDCC12B84E53D00E48A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76FDDCA82B84E53A00E48A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76FDDCAF2B84E53A00E48A74;
+			remoteInfo = "Circuit Assistant a";
+		};
+		76FDDCCB2B84E53D00E48A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76FDDCA82B84E53A00E48A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76FDDCAF2B84E53A00E48A74;
+			remoteInfo = "Circuit Assistant a";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76A453A72B85869700581694 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		76A453AF2B85B65E00581694 /* FabricationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricationModel.swift; sourceTree = "<group>"; };
+		76A453B12B85B7E100581694 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		76A453B32B85B85900581694 /* FabDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabDetailView.swift; sourceTree = "<group>"; };
+		76FDDCB02B84E53A00E48A74 /* Circuit Assistant a.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circuit Assistant a.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FDDCB32B84E53A00E48A74 /* Circuit_Assistant_aApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circuit_Assistant_aApp.swift; sourceTree = "<group>"; };
+		76FDDCB72B84E53C00E48A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76FDDCBA2B84E53C00E48A74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76FDDCC02B84E53D00E48A74 /* Circuit Assistant aTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circuit Assistant aTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FDDCCA2B84E53D00E48A74 /* Circuit Assistant aUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circuit Assistant aUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76FDDCAD2B84E53A00E48A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FDDCBD2B84E53D00E48A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FDDCC72B84E53D00E48A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76FDDCA72B84E53A00E48A74 = {
+			isa = PBXGroup;
+			children = (
+				76FDDCB22B84E53A00E48A74 /* Circuit Assistant a */,
+				76FDDCB12B84E53A00E48A74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76FDDCB12B84E53A00E48A74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76FDDCB02B84E53A00E48A74 /* Circuit Assistant a.app */,
+				76FDDCC02B84E53D00E48A74 /* Circuit Assistant aTests.xctest */,
+				76FDDCCA2B84E53D00E48A74 /* Circuit Assistant aUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76FDDCB22B84E53A00E48A74 /* Circuit Assistant a */ = {
+			isa = PBXGroup;
+			children = (
+				76FDDCB32B84E53A00E48A74 /* Circuit_Assistant_aApp.swift */,
+				76A453B32B85B85900581694 /* FabDetailView.swift */,
+				76A453B12B85B7E100581694 /* Intro.swift */,
+				76A453A72B85869700581694 /* SecondView.swift */,
+				76A453AF2B85B65E00581694 /* FabricationModel.swift */,
+				76FDDCB72B84E53C00E48A74 /* Assets.xcassets */,
+				76FDDCB92B84E53C00E48A74 /* Preview Content */,
+			);
+			path = "Circuit Assistant a";
+			sourceTree = "<group>";
+		};
+		76FDDCB92B84E53C00E48A74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				76FDDCBA2B84E53C00E48A74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76FDDCAF2B84E53A00E48A74 /* Circuit Assistant a */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FDDCD42B84E53D00E48A74 /* Build configuration list for PBXNativeTarget "Circuit Assistant a" */;
+			buildPhases = (
+				76FDDCAC2B84E53A00E48A74 /* Sources */,
+				76FDDCAD2B84E53A00E48A74 /* Frameworks */,
+				76FDDCAE2B84E53A00E48A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Circuit Assistant a";
+			productName = "Circuit Assistant a";
+			productReference = 76FDDCB02B84E53A00E48A74 /* Circuit Assistant a.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76FDDCBF2B84E53D00E48A74 /* Circuit Assistant aTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FDDCD72B84E53D00E48A74 /* Build configuration list for PBXNativeTarget "Circuit Assistant aTests" */;
+			buildPhases = (
+				76FDDCBC2B84E53D00E48A74 /* Sources */,
+				76FDDCBD2B84E53D00E48A74 /* Frameworks */,
+				76FDDCBE2B84E53D00E48A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76FDDCC22B84E53D00E48A74 /* PBXTargetDependency */,
+			);
+			name = "Circuit Assistant aTests";
+			productName = "Circuit Assistant aTests";
+			productReference = 76FDDCC02B84E53D00E48A74 /* Circuit Assistant aTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76FDDCC92B84E53D00E48A74 /* Circuit Assistant aUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FDDCDA2B84E53D00E48A74 /* Build configuration list for PBXNativeTarget "Circuit Assistant aUITests" */;
+			buildPhases = (
+				76FDDCC62B84E53D00E48A74 /* Sources */,
+				76FDDCC72B84E53D00E48A74 /* Frameworks */,
+				76FDDCC82B84E53D00E48A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76FDDCCC2B84E53D00E48A74 /* PBXTargetDependency */,
+			);
+			name = "Circuit Assistant aUITests";
+			productName = "Circuit Assistant aUITests";
+			productReference = 76FDDCCA2B84E53D00E48A74 /* Circuit Assistant aUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76FDDCA82B84E53A00E48A74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					76FDDCAF2B84E53A00E48A74 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					76FDDCBF2B84E53D00E48A74 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 76FDDCAF2B84E53A00E48A74;
+					};
+					76FDDCC92B84E53D00E48A74 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 76FDDCAF2B84E53A00E48A74;
+					};
+				};
+			};
+			buildConfigurationList = 76FDDCAB2B84E53A00E48A74 /* Build configuration list for PBXProject "Circuit Assistant a" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76FDDCA72B84E53A00E48A74;
+			productRefGroup = 76FDDCB12B84E53A00E48A74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76FDDCAF2B84E53A00E48A74 /* Circuit Assistant a */,
+				76FDDCBF2B84E53D00E48A74 /* Circuit Assistant aTests */,
+				76FDDCC92B84E53D00E48A74 /* Circuit Assistant aUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76FDDCAE2B84E53A00E48A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FDDCBB2B84E53C00E48A74 /* Preview Assets.xcassets in Resources */,
+				76FDDCB82B84E53C00E48A74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FDDCBE2B84E53D00E48A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FDDCC82B84E53D00E48A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76FDDCAC2B84E53A00E48A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A453B02B85B65E00581694 /* FabricationModel.swift in Sources */,
+				76A453B42B85B85900581694 /* FabDetailView.swift in Sources */,
+				76FDDCB42B84E53A00E48A74 /* Circuit_Assistant_aApp.swift in Sources */,
+				76A453B22B85B7E100581694 /* Intro.swift in Sources */,
+				76A453A82B85869700581694 /* SecondView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FDDCBC2B84E53D00E48A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FDDCC62B84E53D00E48A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76FDDCC22B84E53D00E48A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76FDDCAF2B84E53A00E48A74 /* Circuit Assistant a */;
+			targetProxy = 76FDDCC12B84E53D00E48A74 /* PBXContainerItemProxy */;
+		};
+		76FDDCCC2B84E53D00E48A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76FDDCAF2B84E53A00E48A74 /* Circuit Assistant a */;
+			targetProxy = 76FDDCCB2B84E53D00E48A74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76FDDCD22B84E53D00E48A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76FDDCD32B84E53D00E48A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76FDDCD52B84E53D00E48A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Circuit Assistant a/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "df.dsf.dfs.fds.Circuit-Assistant-a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76FDDCD62B84E53D00E48A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Circuit Assistant a/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "df.dsf.dfs.fds.Circuit-Assistant-a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76FDDCD82B84E53D00E48A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "df.dsf.dfs.fds.Circuit-Assistant-aTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circuit Assistant a.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Circuit Assistant a";
+			};
+			name = Debug;
+		};
+		76FDDCD92B84E53D00E48A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "df.dsf.dfs.fds.Circuit-Assistant-aTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circuit Assistant a.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Circuit Assistant a";
+			};
+			name = Release;
+		};
+		76FDDCDB2B84E53D00E48A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "df.dsf.dfs.fds.Circuit-Assistant-aUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Circuit Assistant a";
+			};
+			name = Debug;
+		};
+		76FDDCDC2B84E53D00E48A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "df.dsf.dfs.fds.Circuit-Assistant-aUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Circuit Assistant a";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76FDDCAB2B84E53A00E48A74 /* Build configuration list for PBXProject "Circuit Assistant a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FDDCD22B84E53D00E48A74 /* Debug */,
+				76FDDCD32B84E53D00E48A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FDDCD42B84E53D00E48A74 /* Build configuration list for PBXNativeTarget "Circuit Assistant a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FDDCD52B84E53D00E48A74 /* Debug */,
+				76FDDCD62B84E53D00E48A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FDDCD72B84E53D00E48A74 /* Build configuration list for PBXNativeTarget "Circuit Assistant aTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FDDCD82B84E53D00E48A74 /* Debug */,
+				76FDDCD92B84E53D00E48A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FDDCDA2B84E53D00E48A74 /* Build configuration list for PBXNativeTarget "Circuit Assistant aUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FDDCDB2B84E53D00E48A74 /* Debug */,
+				76FDDCDC2B84E53D00E48A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76FDDCA82B84E53A00E48A74 /* Project object */;
+}
